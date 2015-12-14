@@ -1,0 +1,27 @@
+{
+  "name": "Diva",
+  "authors": [
+    "Bryce Stradling <bryce@getvyral.com>"
+  ],
+  "description": "landing page",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "~3.0.3",
+    "toast": "toast-grid#~1.0.0"
+  }
+}

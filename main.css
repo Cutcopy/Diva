@@ -338,8 +338,7 @@ strong {
 }
 
 .main-nav li a:hover {
-  background: -webkit-linear-gradient(#0B4492, #104B97, #428ECB);
-  background: linear-gradient(#0B4492, #104B97, #428ECB);
+  background: #0B4492;
 }
 
 .main-nav li h1 {

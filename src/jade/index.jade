@@ -11,11 +11,40 @@ body
     include ./includes/header.jade
     .row
       .col.col--6-of-12
-        include ./includes/salestext.jade
+        p Rhonda L Sher is known as the LinkedIn Diva.  She has been using LinkedIn since 2006 and has trained hundreds of business professionals to leverage LinkedIn, the world’s #1 business focused social network to reach their business and personal goals.  In addition to being the author of three books including The Two Minute Networker, The ABC’s of LinkedIn, Get LinkedIn or Get Left Out and Avoid the Business Card Pile-up/ 52 Ways to Boost Business With Your Business Card, Rhonda is the creator of the Biz Card Caddy as well as several audio and video programs.
+
+        p Rhonda has been a monthly columnist for the National Networker and a certified trainer of Pipeline with The Referral Institute. She has given hundreds of keynote speeches across the country and trainings on LinkedIn.  Rhonda considers herself to be a marketing strategist with a talent for combining online and offline networking to convert relationships to revenue.  She is known for her interactive and fun teaching methods where business professionals learn how to use LinkedIn to find new leads at NO COST and how to create a LinkedIn profile that leads to profit.
+        h2 Attention Sales and Business Professionals:
+        h3 <em>Learn Why You Need LinkedIn Even If You Don’t Think You Do</em>
+        p Get This Free Guide To LinkedIn Best Practices
+        form( class="doc-form" method="post" action="http://oi.vresp.com?fid=d65059fc7e")
+          .row
+            .col.col--6-of-12
+              input.first_name(type="text" name="first_name" placeholder="First Name*" required)
+            .col.col--6-of-12  
+              input.last_name(type="text" name="last_name" placeholder="Last Name*" required)
+          .row
+            .col.col--12-of-12    
+              input.phone(type="text" name="mobile_phone" placeholder="Phone*" required)
+          .row  
+            .col.col--12-of-12  
+              input.email(type="text" name="email_address" placeholder="Email*" required)
+          .row
+            .col.col--12-of-12
+              input(type="submit" value="Submit")
+    
+        //include ./includes/salestext.jade
       .col.col--6-of-12
-        img(src="img/diva_cutout.png", alt="")  
+        img.character(src="img/diva_cutout.png", alt="")  
+    .row
+      .col.col--12-of-12
+        h2 Book an Appointment with Rhonda
+        hr
+        P Just choose a time!
+        #bookingjs
+    
     include ./includes/testimonials.jade
-    include ./includes/about.jade
+    //include ./includes/about.jade
 
       
 
